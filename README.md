@@ -4,13 +4,13 @@ An overview over freely available tools for doing all kinds of tasks on AMR grap
 
 # AMR tools
 
-| name            | key words                                 | purposes                                          | dependencies | notes |
-| --------------- | ----------------------------------------- | ------------------------------------------------- | ------------ | ----- |
-| amr-lib         | parsing, generation                       | amr parsing, amr generation                       | moderate     | na |
-| penman          | reading, writing                          | amr reading, amr writing                          | low          | na |
-| Smatch          | metric, graph alignment                   | structural graph similarity, 1-1 node alignment   | none         | na |
-| Smatch-enhanced | metric, graph alignment                   | structural subgraph similarity                    | none         | na |
-| Smatch++        | metric, graph alignment                   | optimal/standardized Smatch and subgraph Smatch   | none         | na |
-| WWLK-amr-amr    | metric, graph alignment                   | graded graph similarity, n-m node alignment       | low          | na |
-| WWLK-amr-text   | metric, text alignment                    | Wasserstein amr-text alignment                    | low          | na |
-| [Leamr](https://github.com/ablodge/leamr), [📜](https://aclanthology.org/2021.acl-long.257/) | text alignment  | Statistical amr-text aligmemnt                    | moderate     | na |
+| name                                                         | key words         | purposes            | dependencies | notes |
+| ------------------------------------------------------------ | ----------------- | ------------------- | ------------ | ----- | 
+| [amr-lib](https://github.com/bjascob/amrlib)                 | parsing, generation | amr parsing, amr generation | moderate     | na |
+| penman                                                       | reading, writing                          | amr reading, amr writing                          | low          | na |
+| Smatch          | metric, graph alignment | structural graph similarity, 1-1 node alignment   | none         | na |
+| Smatch-enhanced | metric, graph alignment | structural subgraph similarity                    | none         | na |
+| Smatch++        | metric, graph alignment | optimal/standardized Smatch and subgraph Smatch   | none         | na |
+| WWLK-amr-amr    | metric, graph alignment | graded graph similarity, n-m node alignment       | low          | na |
+| WWLK-amr-text   | metric, text alignment  | Wasserstein amr-text alignment                    | low          | na |
+| [Leamr](https://github.com/ablodge/leamr), [📜](https://aclanthology.org/2021.acl-long.257/)                    | text alignment  | Statistical amr-text aligmemnt                    | moderate     | na |
