@@ -4,6 +4,7 @@ An overview over freely available tools for doing all kinds of tasks on AMR grap
 # AMR tools
 
 | name            | key words                                 | purposes                                          | dependencies | notes |
+| --------------- | ----------------------------------------- | ------------------------------------------------- | ------------ | ----- |
 | amr-lib         | parsing, generation                       | amr parsing, amr generation                       | moderate     | na |
 | penman          | reading, writing                          | amr reading, amr writing                          | low          | na |
 | Smatch          | metric, graph alignment                   | structural graph similarity, 1-1 node alignment   | none         | na |
