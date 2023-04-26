@@ -1,4 +1,5 @@
-# free-AMR-tool-overview
+# Overview of free AMR tools and resources
+
 An overview over freely available tools for doing all kinds of tasks on AMR graphs
 
 # AMR tools
