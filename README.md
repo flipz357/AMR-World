@@ -11,4 +11,5 @@ An overview over freely available tools for doing all kinds of tasks on AMR grap
 | Smatch-enhanced | metric, graph alignment                   | structural subgraph similarity                    | none         | na |
 | Smatch++        | metric, graph alignment                   | optimal/standardized Smatch and subgraph Smatch   | none         | na |
 | WWLK-amr-amr    | metric, graph alignment                   | graded graph similarity, n-m node alignment       | low          | na |
-| WWLK-amr-text   | metric, text alignment                    | n-m node amr-text alignment                       | low          | na |
+| WWLK-amr-text   | metric, text alignment                    | Wasserstein amr-text alignment                    | low          | na |
+| [Leamr](https://github.com/ablodge/leamr), [📄](https://aclanthology.org/2021.acl-long.257/) | text alignment  | Statistical amr-text aligmemnt                    | moderate     | na |
