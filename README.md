@@ -1,16 +1,25 @@
 # Overview of free AMR tools and resources
 
-An overview over freely available tools for doing all kinds of tasks on AMR graphs
+An overview over available tools for doing all kinds of tasks on AMR graphs. Requirements to be included
+
+- free usage
+- small dependencies
+- no parsing or generation (should be listed separately)
 
 # AMR tools
 
-| name                                                         | key words         | purposes            | dependencies | notes |
-| ------------------------------------------------------------ | ----------------- | ------------------- | ------------ | ----- | 
-| [amr-lib](https://github.com/bjascob/amrlib)                 | parsing, generation | amr parsing, amr generation | moderate     | na |
-| penman                                                       | reading, writing                          | amr reading, amr writing                          | low          | na |
-| Smatch          | metric, graph alignment | structural graph similarity, 1-1 node alignment   | none         | na |
-| Smatch-enhanced | metric, graph alignment | structural subgraph similarity                    | none         | na |
-| Smatch++        | metric, graph alignment | optimal/standardized Smatch and subgraph Smatch   | none         | na |
-| WWLK-amr-amr    | metric, graph alignment | graded graph similarity, n-m node alignment       | low          | na |
-| WWLK-amr-text   | metric, text alignment  | Wasserstein amr-text alignment                    | low          | na |
-| [Leamr](https://github.com/ablodge/leamr), [📜](https://aclanthology.org/2021.acl-long.257/)                    | text alignment  | Statistical amr-text aligmemnt                    | moderate     | na |
+## Graph processing, reading, writing
+
+- [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): library for reading, writing and manipulating graphs
+                                                  
+## AMR metrics & AMR-to-AMR alignment
+
+- Smatch: structural graph similarity, one-to-one node alignment
+- Smatch++: optimal/standardized Smatch and subgraph Smatch
+- WWLK: Graded Weisfeiler Leman Kernel for AMR with glove embeddings, many-to-many alignment 
+
+## AMR-to-text alignment
+
+- WWLK-amr-text   | metric, text alignment  | Wasserstein amr-text alignment  
+- [Leamr](https://github.com/ablodge/leamr), [📜](https://aclanthology.org/2021.acl-long.257/):  Statistical amr-text aligmemnt
+
