@@ -24,7 +24,7 @@ An overview over available tools for doing all kinds of tasks on AMR graphs. Req
 #### Structure and content matching
 
 - [S2match](https://github.com/Heidelberg-NLP/amr-metric-suite), [📜](https://aclanthology.org/2020.tacl-1.34/): Smatch matching with node labels matched via word embeddings
-- [SXmatch](ttps://github.com/Heidelberg-NLP/amr-metric-suite), [📜](https://aclanthology.org/2022.coling-1.336/): S2match with cross lingual embedding matching
+- [SXmatch](https://github.com/Heidelberg-NLP/amr-metric-suite), [📜](https://aclanthology.org/2022.coling-1.336/): S2match with cross lingual embedding matching
 - [WWLK](https://github.com/flipz357/weisfeiler-leman-amr-metrics), [📜](https://aclanthology.org/2021.tacl-1.85/): Weisfeiler Leman Kernel with glove embeddings, many-to-many alignment 
 
 ### AMR-to-text alignment
