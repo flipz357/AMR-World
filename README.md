@@ -24,8 +24,8 @@ Elements are sorted alphabetically.
 
 - [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): alignment-free triple matching
 - [SemBleu](https://aclanthology.org/P19-1446/), [📜](https://github.com/freesunshine0316/sembleu): alignment-free bags of structure matching with BLEU
-- [Smatch](https://github.com/snowblink14/smatch), [📜](https://aclanthology.org/P13-2131/): structural graph match, one-to-one node alignment with hill-climber
 - [Smaragd](https://github.com/PhMeier/Smaragd/), [📜](https://arxiv.org/abs/2203.13226): fast approximated Smatch with neural network
+- [Smatch](https://github.com/snowblink14/smatch), [📜](https://aclanthology.org/P13-2131/): structural graph match, one-to-one node alignment with hill-climber
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): optimal/standardized Smatch and subgraph Smatch
 
 #### Structure and content matching
