@@ -1,20 +1,22 @@
 # Overview of free AMR tools and resources
 
-An overview over available tools for doing all kinds of tasks on AMR graphs. Requirements to be included
+An overview of available tools for doing all kinds of tasks on AMR graphs. Requirements to be included
 
 - free usage
-- small dependencies
+- small dependencies (ideally)
 - no parsing or generation (should be listed separately)
 
 ## AMR tools
 
 ### Graph processing, reading, writing
 
-- [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): library for reading, writing and manipulating graphs
+- [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): can read, write and modify graphs, de(reification) standardization
+- [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): can read and modify graphs, de(reification) standardization, semantic standardization
+- [amr-utils](https://github.com/ablodge/amr-utils): uses penman,read, write, and modify graphs and alignments 
                                                   
 ### AMR metrics & AMR-to-AMR alignment
 
-#### Pure Structural matching
+#### Structural matching
 
 - [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): alignment-free triple matching
 - [SemBleu](https://aclanthology.org/P19-1446/), [📜](https://github.com/freesunshine0316/sembleu): alignment-free bags of structure matching with BLEU
@@ -23,9 +25,9 @@ An overview over available tools for doing all kinds of tasks on AMR graphs. Req
 
 #### Structure and content matching
 
-- [S2match](https://github.com/Heidelberg-NLP/amr-metric-suite), [📜](https://aclanthology.org/2020.tacl-1.34/): Smatch matching with node labels matched via word embeddings
+- [S2match](https://github.com/Heidelberg-NLP/amr-metric-suite), [📜](https://aclanthology.org/2020.tacl-1.34/): Smatch matching with node labels matched via word embeddings, also included in Smatch++
 - [SXmatch](https://github.com/shirawein/Crossling-AMR-Eval), [📜](https://aclanthology.org/2022.coling-1.336/): S2match with cross lingual embedding matching
-- [WWLK](https://github.com/flipz357/weisfeiler-leman-amr-metrics), [📜](https://aclanthology.org/2021.tacl-1.85/): Weisfeiler Leman Kernel with glove embeddings, many-to-many alignment 
+- [WWLK](https://github.com/flipz357/weisfeiler-leman-amr-metrics), [📜](https://aclanthology.org/2021.tacl-1.85/): Weisfeiler Leman Kernel with glove embeddings, many-to-many node alignment 
 
 ### AMR-to-text alignment
 
@@ -41,7 +43,6 @@ An overview over available tools for doing all kinds of tasks on AMR graphs. Req
 - [Bio AMR](https://amr.isi.edu/download/2018-01-25/amr-release-bio-v3.0.txt): 6952 AMR annotated sentences from bio-medical domain
 - [Little Prince AMR](https://amr.isi.edu/download/amr-bank-struct-v1.6.txt): 1562 AMR annotated sentences of the novel "little Prince"
 
-
 ### AMR sembanks: Other languages
 
 - [Spanish AMR corpus](https://github.com/shirawein/Spanish-Abstract-Meaning-Representation),  [📜](https://nejlt.ep.liu.se/article/view/4462/3648): 486 gold-annotated sentences spanning multiple genre
@@ -51,6 +52,8 @@ An overview over available tools for doing all kinds of tasks on AMR graphs. Req
 - [Spanish-English](https://github.com/shirawein/spanish-english-amr-corpus), [📜](https://aclanthology.org/2021.law-1.6/): 50 pairs of parallel AMRs with annotated divergence type
 - [ParsEval](https://github.com/Heidelberg-NLP/AMRParseEval), [📜](https://aclanthology.org/2022.eval4nlp-1.4/): 800 Parsed AMRs with human quality annoations (domain: little Prince, AMR3)
 - [Textual Similarity](https://github.com/flipz357/bamboo-amr-benchmark), [📜](https://aclanthology.org/2021.tacl-1.85/): Silver AMRs of text similarity benchmarks (e.g., STS) that are annoated with human textual similarity ratings
+- [NLI parses](https://github.com/flipz357/amr4nli), [📜](https://arxiv.org/abs/2306.00936): >1 mio Silver AMR pairs of five NLI data sets
+
 
 
 
