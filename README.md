@@ -14,7 +14,7 @@ Please file an issue or make a pull request if you want to make a suggestion for
 
 - [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): can read, write and modify graphs, standardization
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): can read and modify graphs, standardization, sub-graph extraction
-- [amr-utils](https://github.com/ablodge/amr-utils): read, write, and modify graphs and alignments 
+- [amr-utils](https://github.com/ablodge/amr-utils): can read, write, and modify graphs and alignments 
                                                   
 ### AMR metrics & AMR-to-AMR alignment
 
