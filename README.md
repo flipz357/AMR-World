@@ -12,7 +12,7 @@ An overview of available tools for doing all kinds of tasks on AMR graphs. Requi
 
 - [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): can read, write and modify graphs, de(reification) standardization
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): can read and modify graphs, de(reification) standardization, semantic standardization
-- [amr-utils](https://github.com/ablodge/amr-utils): uses penman,read, write, and modify graphs and alignments 
+- [amr-utils](https://github.com/ablodge/amr-utils): read, write, and modify graphs and alignments 
                                                   
 ### AMR metrics & AMR-to-AMR alignment
 
