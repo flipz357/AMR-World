@@ -31,7 +31,7 @@ Elements are sorted alphabetically.
 
 - [S2match](https://github.com/Heidelberg-NLP/amr-metric-suite), [📜](https://aclanthology.org/2020.tacl-1.34/): Smatch matching with node labels matched via word embeddings, also included in Smatch++
 - [SXmatch](https://github.com/shirawein/Crossling-AMR-Eval), [📜](https://aclanthology.org/2022.coling-1.336/): S2match with cross lingual embedding matching
-- [WWLK](https://github.com/flipz357/weisfeiler-leman-amr-metrics), [📜](https://aclanthology.org/2021.tacl-1.85/): Weisfeiler Leman AMR Kernel with embeddings, many-to-many node alignment 
+- [WWLK](https://github.com/flipz357/weisfeiler-leman-amr-metrics), [📜](https://aclanthology.org/2021.tacl-1.85/): Weisfeiler Leman AMR Kernel with embeddings for contextualied matching, many-to-many node alignment 
 
 ### AMR-to-text alignment
 
