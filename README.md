@@ -6,6 +6,8 @@ An overview of available tools for doing all kinds of tasks on AMR graphs. Requi
 - small dependencies (ideally)
 - no parsing or generation (should be listed separately)
 
+Please file an issue or make a pull request if you want to make a suggestion for inclusion.
+
 ## AMR tools
 
 ### Graph processing, reading, writing
