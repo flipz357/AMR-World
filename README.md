@@ -6,24 +6,26 @@ An overview of available tools for doing all kinds of tasks on AMR graphs. Requi
 - small dependencies (ideally)
 - no parsing or generation (should be listed separately)
 
-Please file an issue or make a pull request if you want to make a suggestion for inclusion.
+Please file an issue or make a pull request if you want to make a suggestion for inclusion. 
+
+Elements are sorted alphabetically.
 
 ## AMR tools
 
 ### Graph processing, reading, writing
 
-- [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): can read, write and modify graphs, standardization
 - [amr-utils](https://github.com/ablodge/amr-utils): can read, write, and modify graphs and alignments, visualization included
+- [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): can read, write and modify graphs, standardization
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): can read and modify graphs, standardization, sub-graph extraction
                                                   
 ### AMR metrics & AMR-to-AMR alignment
 
 #### Structural matching
 
-- [Smatch](https://github.com/snowblink14/smatch), [📜](https://aclanthology.org/P13-2131/): structural graph match, one-to-one node alignment with hill-climber
-- [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): optimal/standardized Smatch and subgraph Smatch
 - [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): alignment-free triple matching
 - [SemBleu](https://aclanthology.org/P19-1446/), [📜](https://github.com/freesunshine0316/sembleu): alignment-free bags of structure matching with BLEU
+- [Smatch](https://github.com/snowblink14/smatch), [📜](https://aclanthology.org/P13-2131/): structural graph match, one-to-one node alignment with hill-climber
+- [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): optimal/standardized Smatch and subgraph Smatch
 
 #### Structure and content matching
 
@@ -51,10 +53,10 @@ Please file an issue or make a pull request if you want to make a suggestion for
 
 ### Pair-wise annotations
 
+- [NLI AMR](https://github.com/flipz357/amr4nli), [📜](https://arxiv.org/abs/2306.00936): >1 mio Silver AMR pairs of five NLI data sets
 - [Spanish-English](https://github.com/shirawein/spanish-english-amr-corpus), [📜](https://aclanthology.org/2021.law-1.6/): 50 pairs of parallel AMRs with annotated divergence type
 - [ParsEval](https://github.com/Heidelberg-NLP/AMRParseEval), [📜](https://aclanthology.org/2022.eval4nlp-1.4/): 800 Parsed AMRs with human quality annoations (domain: little Prince, AMR3)
 - [Textual Similarity](https://github.com/flipz357/bamboo-amr-benchmark), [📜](https://aclanthology.org/2021.tacl-1.85/): Silver AMRs of text similarity benchmarks (e.g., STS) that are annoated with human textual similarity ratings
-- [NLI parses](https://github.com/flipz357/amr4nli), [📜](https://arxiv.org/abs/2306.00936): >1 mio Silver AMR pairs of five NLI data sets
 
 
 
