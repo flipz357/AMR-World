@@ -28,7 +28,7 @@ Elements are sorted alphabetically.
 - [Smatch](https://github.com/snowblink14/smatch), [📜](https://aclanthology.org/P13-2131/): triple match, heuristic solver
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): triple match, optimal solver, standardized scoring
 
-#### Structure and content matching
+#### Structure and content matching (metrics using embeddings)
 
 - [AMRSim](https://github.com/zzshou/AMRSim), [📜](https://aclanthology.org/2023.acl-long.892/): self supervised learning of graph matching
 - [S2match](https://github.com/Heidelberg-NLP/amr-metric-suite), [📜](https://aclanthology.org/2020.tacl-1.34/): Smatch with word embeddings
