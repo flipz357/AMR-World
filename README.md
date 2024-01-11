@@ -14,6 +14,8 @@ Elements are sorted alphabetically.
 
 ### Graph processing, reading, writing
 
+These are tools for reading, writing and handling AMR graphs.
+
 - [amr-utils](https://github.com/ablodge/amr-utils): read, write, modify graphs
 - [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): read, write, modify graphs
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): read, write, modify graphs, standardize graphs
@@ -30,7 +32,9 @@ The following are graph metrics that compare AMR graphs structurally (i.e., they
 - [Smatch](https://github.com/snowblink14/smatch), [📜](https://aclanthology.org/P13-2131/): triple match, heuristic solver
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/) ✅: triple match, optimal solver, standardized scoring
 
-#### Structure and content matching (graph metrics that use embeddings)
+#### Structure and content matching
+
+These are metrics that use embeddings, to better calculate AMR similarity (i.e., `kitten` vs. `cat` vs. `cat :mod young`)
 
 - [AMRSim](https://github.com/zzshou/AMRSim), [📜](https://aclanthology.org/2023.acl-long.892/): self supervised learning of graph matching
 - [S2match](https://github.com/Heidelberg-NLP/amr-metric-suite), [📜](https://aclanthology.org/2020.tacl-1.34/): Smatch with word embeddings
@@ -39,10 +43,14 @@ The following are graph metrics that compare AMR graphs structurally (i.e., they
 
 #### AMR-to-AMR alignment
 
+These are methods for finding out which parts of two AMRs relate to eath other. Most are based on a side-product from computing a metric.
+
 - Align nodes: Smatch, S2match, XSmatch
 - Align broader structures: WWLK
 
 ### AMR-to-text alignment
+
+These are methods for finding out which parts of two AMRs relate to which parts of a sentence.
 
 - [GPLA-aligner](https://github.com/ChunchuanLv/AMR_AS_GRAPH_PREDICTION), [📜](https://aclanthology.org/P18-1037/), alignment as parsing step
 - [JAMR-aligner](https://github.com/jflanigan/jamr), [📜](https://jflanigan.github.io/flanigan+etal.acl2014.pdf), alignment as parsing step
