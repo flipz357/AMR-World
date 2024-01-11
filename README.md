@@ -20,15 +20,15 @@ Elements are sorted alphabetically.
 
 ### AMR metrics & AMR-to-AMR alignment
 
-#### Structural matching
+#### Structure matching (graph metrics)
 
-- [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): heuristic, fast
-- [SemBleu](https://aclanthology.org/P19-1446/), [📜](https://github.com/freesunshine0316/sembleu): heuristic, fast
+- [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): triple match heuristic, fast
+- [SemBleu](https://aclanthology.org/P19-1446/), [📜](https://github.com/freesunshine0316/sembleu): path heuristic, fast
 - [Smaragd](https://github.com/PhMeier/Smaragd/), [📜](https://arxiv.org/abs/2203.13226): heuristic (learned Smatch), fast
 - [Smatch](https://github.com/snowblink14/smatch), [📜](https://aclanthology.org/P13-2131/): triple match, heuristic solver
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): triple match, optimal solver, standardized scoring
 
-#### Structure and content matching (metrics using embeddings)
+#### Structure and content matching (graph metrics that use embeddings)
 
 - [AMRSim](https://github.com/zzshou/AMRSim), [📜](https://aclanthology.org/2023.acl-long.892/): self supervised learning of graph matching
 - [S2match](https://github.com/Heidelberg-NLP/amr-metric-suite), [📜](https://aclanthology.org/2020.tacl-1.34/): Smatch with word embeddings
@@ -69,9 +69,3 @@ Elements are sorted alphabetically.
 ### Other resources
 
 - [GrAPES](https://github.com/jgroschwitz/GrAPES), [📜](https://arxiv.org/abs/2312.03480): AMR parser challenge
-
-
-
-
-
-
