@@ -24,7 +24,7 @@ These are tools for reading, writing and handling AMR graphs.
 
 #### Structure matching 
 
-The following are graph metrics that compare AMR graphs structurally (i.e., they don't use embeddings etc.). In case a metric can verifiably detect graph isomorphism detection, we put a ✅.
+The following are graph metrics that compare AMR graphs structurally (i.e., they don't use embeddings etc.). In case a metric can verifiably solve graph isomorphism, we put a ✅.
 
 - [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): triple match heuristic, fast
 - [SemBleu](https://aclanthology.org/P19-1446/), [📜](https://github.com/freesunshine0316/sembleu): path heuristic, fast
