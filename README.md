@@ -20,13 +20,13 @@ Elements are sorted alphabetically.
 
 ### AMR metrics & AMR-to-AMR alignment
 
-#### Structure matching (graph metrics)
+#### Structure matching (graph metrics, verified isomorphism detection: ✅)
 
 - [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): triple match heuristic, fast
 - [SemBleu](https://aclanthology.org/P19-1446/), [📜](https://github.com/freesunshine0316/sembleu): path heuristic, fast
 - [Smaragd](https://github.com/PhMeier/Smaragd/), [📜](https://arxiv.org/abs/2203.13226): heuristic (learned Smatch), fast
 - [Smatch](https://github.com/snowblink14/smatch), [📜](https://aclanthology.org/P13-2131/): triple match, heuristic solver
-- [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): triple match, optimal solver, standardized scoring
+- [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/) ✅: triple match, optimal solver, standardized scoring
 
 #### Structure and content matching (graph metrics that use embeddings)
 
