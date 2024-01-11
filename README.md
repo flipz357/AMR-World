@@ -78,4 +78,5 @@ These are methods for finding out which parts of two AMRs relate to which parts 
 
 ### Other resources
 
+- [AMR guidelines](https://github.com/amrisi/amr-guidelines/blob/master/amr.md), [📜](https://aclanthology.org/W13-2322/): The backbone of everything. AMR examples, and how to create AMRs.
 - [GrAPES](https://github.com/jgroschwitz/GrAPES), [📜](https://arxiv.org/abs/2312.03480): AMR parser challenge
