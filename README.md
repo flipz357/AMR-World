@@ -37,7 +37,7 @@ Elements are sorted alphabetically.
 #### AMR-to-AMR alignment
 
 - Align nodes: Smatch, S2match, XSmatch
-- Align structures: WWLK
+- Align broader structures: WWLK
 
 ### AMR-to-text alignment
 
