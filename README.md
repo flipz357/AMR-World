@@ -55,7 +55,7 @@ Elements are sorted alphabetically.
 
 ### AMR sembanks: Other languages
 
-- [Spanish AMR corpus](https://github.com/shirawein/Spanish-Abstract-Meaning-Representation),  [📜](https://nejlt.ep.liu.se/article/view/4462/3648): 486 gold-annotated sentences spanning multiple genre
+- [Spanish AMR corpus](https://github.com/shirawein/Spanish-Abstract-Meaning-Representation),  [📜](https://nejlt.ep.liu.se/article/view/4462/3648): 486 gold-annotated Spanish sentences
 
 ### Pair-wise annotations
 
