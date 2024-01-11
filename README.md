@@ -20,7 +20,9 @@ Elements are sorted alphabetically.
 
 ### AMR metrics & AMR-to-AMR alignment
 
-#### Structure matching (graph metrics, verified isomorphism detection: ✅)
+#### Structure matching 
+
+The following are graph metrics that compare AMR graphs structurally (i.e., they don't use embeddings etc.). In case a metric can verifiably detect graph isomorphism detection, we put a ✅.
 
 - [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): triple match heuristic, fast
 - [SemBleu](https://aclanthology.org/P19-1446/), [📜](https://github.com/freesunshine0316/sembleu): path heuristic, fast
