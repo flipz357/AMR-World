@@ -34,7 +34,7 @@ The following are graph metrics that compare AMR graphs structurally (i.e., they
 
 #### Structure and content matching
 
-These are metrics that use embeddings, to better calculate AMR similarity (i.e., `kitten` vs. `cat` vs. `cat :mod young`)
+These are metrics that use embeddings, to better calculate general AMR meaning similarity (i.e., `kitten` vs. `cat` vs. `cat :mod young`)
 
 - [AMRSim](https://github.com/zzshou/AMRSim), [📜](https://aclanthology.org/2023.acl-long.892/): self supervised learning of graph matching
 - [S2match](https://github.com/Heidelberg-NLP/amr-metric-suite), [📜](https://aclanthology.org/2020.tacl-1.34/): Smatch with word embeddings
