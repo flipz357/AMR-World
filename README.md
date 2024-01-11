@@ -40,6 +40,8 @@ Elements are sorted alphabetically.
 - Align nodes: Smatch, S2match, XSmatch
 - Align broader structures: WWLK
 
+  ---
+
 ### AMR-to-text alignment
 
 - [GPLA-aligner](https://github.com/ChunchuanLv/AMR_AS_GRAPH_PREDICTION), [📜](https://aclanthology.org/P18-1037/), alignment as parsing step
