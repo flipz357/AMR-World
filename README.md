@@ -18,8 +18,6 @@ Elements are sorted alphabetically.
 - [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): read, write, modify graphs
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): read, write, modify graphs, standardize graphs
 
----
-
 ### AMR metrics & AMR-to-AMR alignment
 
 #### Structural matching
@@ -41,8 +39,6 @@ Elements are sorted alphabetically.
 
 - Align nodes: Smatch, S2match, XSmatch
 - Align broader structures: WWLK
-
-  ---
 
 ### AMR-to-text alignment
 
