@@ -1,6 +1,6 @@
 # Overview of free AMR tools and resources
 
-An overview of available tools for doing all kinds of tasks on AMR graphs. Requirements to be included are:
+An overview of available tools and resources associated with AMR graphs. Requirements to be included are:
 
 - free usage
 - small dependencies (ideally)
