@@ -27,7 +27,7 @@ These are tools for reading, writing and handling AMR graphs.
 - [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): read, write, modify graphs
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): read, write, modify graphs, standardize graphs
 
-### AMR metrics & AMR-to-AMR alignment
+### Metrics & Graph alignment
 
 #### Structure matching 
 
@@ -48,14 +48,14 @@ These are metrics that use embeddings, for finer AMR similarity (i.e., `kitten` 
 - [SXmatch](https://github.com/shirawein/Crossling-AMR-Eval), [📜](https://aclanthology.org/2022.coling-1.336/): Smatch with cross-lingual embeddings
 - [WWLK](https://github.com/flipz357/weisfeiler-leman-amr-metrics), [📜](https://aclanthology.org/2021.tacl-1.85/): Contextualized matching with Wasserstein Weisfeiler Leman Algorithm
 
-#### AMR-to-AMR alignment
+#### Graph alignment
 
 These are methods for finding out which parts of two AMRs relate to eath other. Most are based on a side-product from computing a metric.
 
 - Align nodes: Smatch, S2match, XSmatch
 - Align broader structures: WWLK
 
-### AMR-to-text alignment
+### Graph-to-text alignment
 
 These are methods for finding out which parts of two AMRs relate to which parts of a sentence.
 
@@ -66,16 +66,22 @@ These are methods for finding out which parts of two AMRs relate to which parts 
 
 ## AMR resources
 
-### AMR sembanks: English
+### Sembanks: English
+
+English Sembanks contain English texts and their AMR graphs.
 
 - [Bio AMR](https://amr.isi.edu/download/2018-01-25/amr-release-bio-v3.0.txt): 6952 AMR annotated sentences from bio-medical domain
 - [Little Prince AMR](https://amr.isi.edu/download/amr-bank-struct-v1.6.txt): 1562 AMR annotated sentences of the novel "little Prince"
 
-### AMR sembanks: Other languages
+### Sembanks: Other languages
+
+Non-English Sembanks contain Non-English texts and their AMR graphs.
 
 - [Spanish AMR corpus](https://github.com/shirawein/Spanish-Abstract-Meaning-Representation),  [📜](https://nejlt.ep.liu.se/article/view/4462/3648): 486 gold-annotated Spanish sentences
 
 ### Pair-wise annotations
+
+Pairs of AMRs with annotation, e.g., entailment, or similarity.
 
 - [BAMBOO benchmark](https://github.com/flipz357/bamboo-amr-benchmark), [📜](https://aclanthology.org/2021.tacl-1.85/): testing and evaluating AMR metrics
 - [NLI AMR](https://github.com/flipz357/amr4nli), [📜](https://arxiv.org/abs/2306.00936): >1 mio Silver AMR pairs of five NLI data sets
