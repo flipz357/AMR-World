@@ -17,7 +17,7 @@ If not mentioned otherwise, tools are all in Python.
 
 These are tools for generating AMRs from text (parsing), or generating text from AMR (generation).
 
-- [amr-lib](https://github.com/bjascob/amrlib): Many pre-trained (English) models for parsing and generation.
+- [amrlib](https://github.com/bjascob/amrlib): Many pre-trained (English) models for parsing and generation.
 
 ### Graph processing, reading, writing
 
@@ -34,7 +34,7 @@ These are tools for reading, writing and handling AMR graphs.
 The following are graph metrics that compare AMR graphs structurally (i.e., they don't use embeddings etc.). In case a metric can verifiably solve graph isomorphism, we put a ✅.
 
 - [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): triple match heuristic, fast
-- [SemBleu](https://aclanthology.org/P19-1446/), [📜](https://github.com/freesunshine0316/sembleu): path heuristic, fast
+- [SemBleu](https://github.com/freesunshine0316/sembleu), [📜](https://aclanthology.org/P19-1446/): path heuristic, fast
 - [Smatch](https://github.com/snowblink14/smatch), [📜](https://aclanthology.org/P13-2131/): triple match, heuristic solver
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/) ✅: triple match, optimal solver, standardized scoring
 
@@ -59,7 +59,7 @@ These are methods for finding out which parts of two AMRs relate to eath other. 
 These are methods for finding out which parts of two AMRs relate to which parts of a sentence.
 
 - [GPLA-aligner](https://github.com/ChunchuanLv/AMR_AS_GRAPH_PREDICTION), [📜](https://aclanthology.org/P18-1037/), alignment as parsing step
-- [JAMR-aligner](https://github.com/jflanigan/jamr), [📜](https://jflanigan.github.io/flanigan+etal.acl2014.pdf), alignment as parsing step
+- [JAMR-aligner](https://github.com/jflanigan/jamr), [📜](https://aclanthology.org/P14-1134/), alignment as parsing step
 - [Leamr](https://github.com/ablodge/leamr), [📜](https://aclanthology.org/2021.acl-long.257/):  Learned statistical amr-text aligmemnt
 - [WWLK-aligner](https://github.com/flipz357/Simple-AMR-Aligner), [📜](https://aclanthology.org/2021.tacl-1.85/): Wasserstein amr-text alignment 
 
