@@ -1,6 +1,6 @@
 # AMR World 🌎: *free* AMR tools and resources 🎊
 
-An overview of available tools and resources associated with AMR graphs. Requirements to be included are:
+An overview of available tools and resources for AMR graphs. Requirements to be included are:
 
 - free usage
 - easy to use
