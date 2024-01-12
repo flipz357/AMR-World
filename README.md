@@ -3,14 +3,21 @@
 An overview of available tools and resources associated with AMR graphs. Requirements to be included are:
 
 - free usage
-- small dependencies (ideally)
-- no parsing or generation (should be listed separately)
+- small dependencies (ideally), easy to use
 
-Please file an issue or make a pull request if you want to make a suggestion for inclusion. 
+Please file an issue or make a pull request if you want to make a suggestion for inclusion. Note that work/papers on single parsers or generators should be listed separately, except if they are easy to use off-the-shelf.
 
 Elements are sorted alphabetically.
 
 ## AMR tools
+
+If not mentioned otherwise, tools are all in Python.
+
+### Off-the-shelf Parsing & generation
+
+These are tools for generating AMRs from text (parsing), or generating text from AMR (generation).
+
+- [amr-lib](https://github.com/bjascob/amrlib): Many pre-trained (English) models for parsing and generation.
 
 ### Graph processing, reading, writing
 
@@ -78,5 +85,6 @@ These are methods for finding out which parts of two AMRs relate to which parts 
 
 ### Other resources
 
+- [AMR anthology](https://github.com/nert-nlp/AMR-Bibliography), [📜](https://nert-nlp.github.io/AMR-Bibliography/): Up-to-date and very large collection of papers and resources so-far released on AMR.
 - [AMR guidelines](https://github.com/amrisi/amr-guidelines/blob/master/amr.md), [📜](https://aclanthology.org/W13-2322/): The backbone of everything. AMR examples, and how to create AMRs.
 - [GrAPES](https://github.com/jgroschwitz/GrAPES), [📜](https://arxiv.org/abs/2312.03480): AMR parser challenge
