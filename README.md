@@ -72,11 +72,13 @@ English Sembanks contain English texts and their AMR graphs.
 - [Bio AMR](https://amr.isi.edu/download/2018-01-25/amr-release-bio-v3.0.txt): 6952 AMR annotated sentences from bio-medical domain
 - [Little Prince AMR](https://amr.isi.edu/download/amr-bank-struct-v1.6.txt): 1562 AMR annotated sentences of the novel "little Prince"
 
+The largest English AMR sembanks, as well as translations of many of their sentences into other languages, are unfortunately not open datasets (they are licensed through the Linguistic Data Consortium).
+
 ### Sembanks: Other languages
 
 Non-English Sembanks contain Non-English texts and their AMR graphs.
 
-- [Spanish AMR corpus](https://github.com/shirawein/Spanish-Abstract-Meaning-Representation),  [📜](https://nejlt.ep.liu.se/article/view/4462/3648): 486 gold-annotated Spanish sentences
+- [Spanish AMR corpus](https://github.com/shirawein/Spanish-Abstract-Meaning-Representation),  [📜](https://nejlt.ep.liu.se/article/view/4462/3648): 486 gold AMRs (source sentences available through Linguistic Data Consortium)
 
 ### Pair-wise annotations
 
@@ -90,6 +92,8 @@ Pairs of AMRs with annotation, e.g., entailment, or similarity.
 
 ### Other resources
 
-- [AMR anthology](https://github.com/nert-nlp/AMR-Bibliography), [📜](https://nert-nlp.github.io/AMR-Bibliography/): Up-to-date and very large collection of papers and resources so-far released on AMR.
-- [AMR guidelines](https://github.com/amrisi/amr-guidelines/blob/master/amr.md), [📜](https://aclanthology.org/W13-2322/): The backbone of everything. AMR examples, and how to create AMRs.
+- [AMR Bibliography](https://github.com/nert-nlp/AMR-Bibliography), [📜](https://nert-nlp.github.io/AMR-Bibliography/): Up-to-date and very large collection of publications on AMR.
+- [AMR Guidelines](https://github.com/amrisi/amr-guidelines/blob/master/amr.md), [📜](https://aclanthology.org/W13-2322/): The backbone of everything. AMR examples, and how to create AMRs.
+- [AMR Dictionary](https://www.isi.edu/~ulf/amr/lib/amr-dict.html): Fine-grained specification of AMR roles, special frames, entity types, etc.
 - [GrAPES](https://github.com/jgroschwitz/GrAPES), [📜](https://arxiv.org/abs/2312.03480): AMR parser challenge
+- [UMR](https://umr4nlp.github.io/web/): Uniform Meaning Representation is a successor to AMR that aims to be more flexible across languages and to cover more semantic phenomena.
