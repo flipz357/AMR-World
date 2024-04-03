@@ -40,7 +40,7 @@ The following are graph metrics that compare meaning graphs structurally (i.e., 
 
 #### Structure and content matching
 
-These are metrics that use embeddings or other features, for finer graph meaning similarity (i.e., `kitten` vs. `cat` vs. `cat :mod young`). 
+These are metrics that use embeddings or other features, for finer graph meaning similarity (e.g., stuff like `kitten` vs. `cat` vs. possibly `cat :mod young`, etc.). 
 
 - [AMRSim](https://github.com/zzshou/AMRSim), [📜](https://aclanthology.org/2023.acl-long.892/): Self supervised learning of graph matching witn neural network
 - [Rematch](https://github.com/osome-iu/Rematch-RARE), [📜](https://arxiv.org/abs/2404.02126): Efficient graph feature matching with node label generalization
