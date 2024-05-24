@@ -23,7 +23,7 @@ These are tools for generating AMRs from text (parsing), or generating text from
 
 These are tools for reading, writing and handling AMR graphs.
 
-- [amr-utils](https://github.com/ablodge/amr-utils): read, write, modify graphs
+- [amr-utils](https://github.com/ablodge/amr-utils): read, write, visualize graphs
 - [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): read, write, modify graphs
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): read, write, modify graphs
 
