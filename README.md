@@ -33,7 +33,7 @@ These are tools for reading, writing and handling AMR graphs.
 
 The following are graph metrics that compare meaning graphs structurally (i.e., they don't use embeddings etc.). 
 
-- [Ancast](https://github.com/sxndqc/ancast), [📜](https://aclanthology.org/2024.lrec-main.94/): Approximates Smatch, but much faster
+- [Ancast](https://github.com/sxndqc/ancast), [📜](https://aclanthology.org/2024.lrec-main.94/): Approximates Smatch, more efficient than Smatch
 - [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): triple match heuristic, fast
 - [SemBleu](https://github.com/freesunshine0316/sembleu), [📜](https://aclanthology.org/P19-1446/): path extraction heuristic, fast
 - [Smatch](https://github.com/snowblink14/smatch), [📜](https://aclanthology.org/P13-2131/): triple match, heuristic solver
