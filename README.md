@@ -19,13 +19,17 @@ These are tools for generating AMRs from text (parsing), or generating text from
 
 - [amrlib](https://github.com/bjascob/amrlib): Many pre-trained (English) models for parsing and generation.
 
-### Graph processing, reading, writing
+### Graph reading, writing
 
 These are tools for reading, writing and handling AMR graphs.
 
 - [amr-utils](https://github.com/ablodge/amr-utils): read, write, modify graphs
 - [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): read, write, modify graphs
-- [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): read, write, modify graphs, standardize graphs
+- [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): read, write, modify graphs
+
+### Graph processing/transformation
+
+-  [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): extract subgraphs, standardize graphs
 
 ### Metrics & Graph alignment
 
