@@ -33,20 +33,22 @@ These are tools for reading, writing and handling AMR graphs.
 
 The following are graph metrics that compare meaning graphs structurally (i.e., they don't use embeddings etc.). 
 
+- [Ancast](https://github.com/sxndqc/ancast), [📜](https://aclanthology.org/2024.lrec-main.94/): Approximates Smatch, but much faster
 - [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): triple match heuristic, fast
 - [SemBleu](https://github.com/freesunshine0316/sembleu), [📜](https://aclanthology.org/P19-1446/): path extraction heuristic, fast
 - [Smatch](https://github.com/snowblink14/smatch), [📜](https://aclanthology.org/P13-2131/): triple match, heuristic solver
-- [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): triple match, standardized scoring. Difference to Smatch: verifiable and optimal solution of graph isomorphism
+- [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): triple match, optimal solver, standardized scoring. 
 
 #### Structure and content matching
 
 These are metrics that use embeddings or other features, for finer graph meaning similarity (e.g., stuff like `kitten` vs. `cat` vs. possibly `cat :mod young`, etc.). 
 
 - [AMRSim](https://github.com/zzshou/AMRSim), [📜](https://aclanthology.org/2023.acl-long.892/): Self supervised learning of graph matching witn neural network
+- [CALAMR](https://github.com/uic-nlp-lab/calamr), [📜](https://aclanthology.org/2024.lrec-main.236/): Flow-based alignment of graph components
 - [Rematch](https://github.com/osome-iu/Rematch-RARE), [📜](https://arxiv.org/abs/2404.02126): Efficient graph feature matching with node label generalization
 - [S2match](https://github.com/Heidelberg-NLP/amr-metric-suite), [📜](https://aclanthology.org/2020.tacl-1.34/): Smatch with word embeddings
 - [SXmatch](https://github.com/shirawein/Crossling-AMR-Eval), [📜](https://aclanthology.org/2022.coling-1.336/): Smatch with cross-lingual embeddings
-- [WWLK](https://github.com/flipz357/weisfeiler-leman-amr-metrics), [📜](https://aclanthology.org/2021.tacl-1.85/): Contextualized matching with Wasserstein Weisfeiler Leman Algorithm
+- [WWLK](https://github.com/flipz357/weisfeiler-leman-amr-metrics), [📜](https://aclanthology.org/2021.tacl-1.85/): Contextualized matching with Wasserstein distance Weisfeiler Leman Algorithm
 
 #### Graph alignment
 
