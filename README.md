@@ -13,9 +13,15 @@ Elements are sorted alphabetically.
 
 If not mentioned otherwise, tools are all in Python.
 
+### Annotation and Visualization
+
+(Usually) GUI-based tools for creating, saving, and showing AMRs
+
+- [metamorphosed](https://github.com/Orange-OpenSource/metamorphosed), [📜](https://aclanthology.org/2023.isa-1.4/): graphical editor to edit Abstract Meaning Representations graphs
+
 ### Parsing & generation
 
-These are tools for generating AMRs from text (parsing), or generating text from AMR (generation).
+These are tools for generating AMRs from text (parsing), or generating text from AMR (generation). 
 
 - [amrlib](https://github.com/bjascob/amrlib): Many pre-trained (English) models for parsing and generation.
 
@@ -41,7 +47,7 @@ The following are graph metrics that compare meaning graphs structurally (i.e., 
 - [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): triple match heuristic, fast
 - [SemBleu](https://github.com/freesunshine0316/sembleu), [📜](https://aclanthology.org/P19-1446/): path extraction heuristic, fast
 - [Smatch](https://github.com/snowblink14/smatch), [📜](https://aclanthology.org/P13-2131/): triple match, heuristic solver
-- [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): triple match, optimal solver, standardized scoring. 
+- [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): triple match, optimal solver, standardized scoring.
 
 #### Structure and content matching
 
