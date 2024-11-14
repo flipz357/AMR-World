@@ -54,4 +54,4 @@ The AMR Bank is manually constructed by human annotators at:
 
 ### Data hosting
 
-What is hosted on this page is taken from [the AMR-ISI webpage](https://amr.isi.edu/) that (currently) does not exist any more. The data in this directory has been "rescued" via [Wayback Machine Link](https://web.archive.org/web/20231207171323/https://amr.isi.edu/)
+What is hosted on this page is taken from [the AMR-ISI webpage](https://amr.isi.edu/) that (currently) does not exist any more. The data in this directory has been "rescued" via [Wayback Machine Link](https://web.archive.org/web/20231207171323/https://amr.isi.edu/).
