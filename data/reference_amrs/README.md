@@ -54,11 +54,11 @@ The AMR Bank is manually constructed by human annotators at:
 
 ### Data hosting
 
-What is hosted on this page is taken from [the AMR-ISI webpage](https://amr.isi.edu/) that (currently) does not exist any more. The data in this directory has been "rescued" via [Wayback Machine Link](https://web.archive.org/web/20231207171323/https://amr.isi.edu/).
+What is hosted on this page is taken from [the AMR-ISI webpage](https://amr.isi.edu/) that (currently) is unreachable. The data in this directory has been "rescued" via [Wayback Machine Link](https://web.archive.org/web/20231207171323/https://amr.isi.edu/).
 
 ### Acknowledgements
 
-We repeat the acknowledgements from [the AMR-ISI webpage](https://amr.isi.edu/) that (currently) does not exist any more: 
+We repeat the acknowledgements from [the AMR-ISI webpage](https://amr.isi.edu/) that (currently) is unreachable: 
 
 *Thanks to NSF (IIS-0908532) for funding the initial design of AMR, and to DARPA MRP (FA-8750-09-C-0179) for supporting a group to construct consensus annotations and the AMR Editor. The initial AMR bank was built under DARPA DEFT FA-8750-13-2-0045 (PI: Stephanie Strassel; co-PIs: Kevin Knight, Daniel Marcu, and Martha Palmer) and DARPA BOLT HR0011-12-C-0014 (PI: Kevin Knight).*
 
