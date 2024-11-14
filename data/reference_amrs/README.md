@@ -37,7 +37,7 @@ This corpus includes annotations of cancer-related PubMed articles, covering 3 f
 - [LDC general release AMR 2.0](https://catalog.ldc.upenn.edu/LDC2017T10) on June 15, 2017, with 39,260 sentences. 
 - [SemEval Task 9](http://alt.qcri.org/semeval2017/task9) is AMR parsing and generation. Organized by Jonathan May. 
 
-## Data that is not available / doesn't seem to exist anymore:
+## Data that is not available (anymore)
 
 - [LDC2013E117](https://catalog.ldc.upenn.edu/LDC2013E117): DEFT Phase 1 AMR Annotation R3 (October 24, 2013). 10,854 sentences with 13,050 AMRs (corpus includes multiple annotations for some sentences) · Release limited to DEFT participants.
 
