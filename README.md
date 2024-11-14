@@ -7,7 +7,7 @@ An overview of available tools and resources for AMR graphs. Requirements to be 
 
 Please file an issue or make a pull request if you want to make a suggestion for inclusion. There should be a link to a github-repository and (if available) a link to a related publication (📜). Note that work/papers on single parsers or generators should be listed separately, except if they are easy to use off-the-shelf.
 
-Elements are sorted alphabetically.
+Elements in each categorty are sorted alphabetically.
 
 ## AMR tools
 
@@ -76,16 +76,17 @@ These are methods for finding out which parts of two AMRs relate to which parts 
 - [Leamr](https://github.com/ablodge/leamr), [📜](https://aclanthology.org/2021.acl-long.257/):  Learned statistical amr-text aligmemnt
 - [WWLK-aligner](https://github.com/flipz357/Simple-AMR-Aligner), [📜](https://aclanthology.org/2021.tacl-1.85/): Wasserstein amr-text alignment 
 
-## AMR resources
+## AMR data and miscelanea
 
-### Sembanks: English
+### Original Sembanks (annotated human reference AMRs):
 
-English Sembanks contain English texts and their AMR graphs.
+They  have their own section. The public datasets, like Little Prince, are hosted in this github, since the link to the main webpage is currently broken. 
 
-- [Bio AMR](https://amr.isi.edu/download/2018-01-25/amr-release-bio-v3.0.txt): 6952 AMR annotated sentences from bio-medical domain
-- [Little Prince AMR](https://amr.isi.edu/download/amr-bank-struct-v1.6.txt): 1562 AMR annotated sentences of the novel "little Prince"
+Please find the public annotations in [this directory](https://github.com/flipz357/AMR-World/tree/main/data/reference_amrs)
 
-The largest English AMR sembanks, as well as translations of many of their sentences into other languages, are unfortunately not open datasets (they are licensed through the Linguistic Data Consortium).
+### Other Sembanks
+
+- [MASSIVE AMR](https://github.com/amazon-science/MASSIVE-AMR), [📜](https://aclanthology.org/2024.starsem-1.1/): A dataset with more than 84,000 text-to-graph Abstract Meaning Representation (AMR) annotations for 1,685 information-seeking utterances mapped to 50+ typologically diverse languages.
 
 ### Sembanks: Other languages
 
@@ -106,7 +107,7 @@ Pairs of AMRs with annotation, e.g., entailment, or similarity.
 ### Other resources
 
 - [AMR Bibliography](https://github.com/nert-nlp/AMR-Bibliography), [📜](https://nert-nlp.github.io/AMR-Bibliography/): Up-to-date and very large collection of publications on AMR.
+- [AMR dictionaries and lexica](https://github.com/flipz357/AMR-World/tree/main/data/dictionaries)
 - [AMR Guidelines](https://github.com/amrisi/amr-guidelines/blob/master/amr.md), [📜](https://aclanthology.org/W13-2322/): The backbone of everything. AMR examples, and how to create AMRs.
-- [AMR Dictionary](https://www.isi.edu/~ulf/amr/lib/amr-dict.html): Fine-grained specification of AMR roles, special frames, entity types, etc.
 - [GrAPES](https://github.com/jgroschwitz/GrAPES), [📜](https://arxiv.org/abs/2312.03480): AMR parser challenge
 - [UMR](https://umr4nlp.github.io/web/): Uniform Meaning Representation is a successor to AMR that aims to be more flexible across languages and to cover more semantic phenomena.
