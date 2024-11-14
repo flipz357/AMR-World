@@ -4,7 +4,9 @@
 
 - [propbank-amr-frames-arg-descr.txt](https://github.com/flipz357/AMR-World/blob/main/data/dictionaries/propbank-amr-frames-arg-descr.txt)
 
-## A number of resources built by Ulf Hermjakob at USC/ISI that other AMR researchers might find useful as well
+## A number of resources 
+
+built by Ulf Hermjakob at USC/ISI that other AMR researchers might find useful as well
 
 - [have-org-role-91-roles-v1.06.txt](https://github.com/flipz357/AMR-World/blob/main/data/dictionaries/have-org-role-91-roles-v1.06.txt)   List of common organizational roles for :ARG2 of have-org-role-91 (e.g. president, official)
 - [have-rel-role-91-roles-v1.06.txt](https://github.com/flipz357/AMR-World/blob/main/data/dictionaries/have-rel-role-91-roles-v1.06.txt)   List of common relational roles for :ARG2 of have-rel-role-91 (e.g. father, friend)
