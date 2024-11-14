@@ -6,7 +6,7 @@
 
 This corpus is an annotation of the novel The Little Prince by Antoine de Saint-Exupéry, published in 1943. 
 
-- [The Little Prince corpus 3.0](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-bank-struct-v3.0.txt)
+- [**The Little Prince corpus 3.0**](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-bank-struct-v3.0.txt)
 
 ### The Little Prince Corpus   version 1.6 · 1,562 sentences
 
