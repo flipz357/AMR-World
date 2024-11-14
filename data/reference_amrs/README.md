@@ -1,4 +1,4 @@
-# Human AMR annotations
+# List of Human Reference AMR annotations
 
 ## Public data
 
