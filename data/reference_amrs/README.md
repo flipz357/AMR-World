@@ -8,7 +8,7 @@ This corpus is an annotation of the novel The Little Prince by Antoine de Saint-
 
 - [**The Little Prince corpus 3.0**](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-bank-struct-v3.0.txt)
 
-### The Little Prince Corpus   version 1.6 · 1,562 sentences
+#### The Little Prince Corpus   version 1.6 · 1,562 sentences
 
 - [**The Little Prince corpus 1.6**](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-bank-struct-v1.6.txt), including meta data and Chinese translations.   Standard split: [145 dev AMRs](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-bank-struct-v1.6-dev.txt), [1274 training AMRs](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-bank-struct-v1.6-training.txt), [143 test AMRs](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-bank-struct-v1.6-test.txt). 
 - The Little Prince corpus in [simplified format](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-bank-v1.6.txt), without meta data. 
@@ -20,17 +20,22 @@ This corpus includes annotations of cancer-related PubMed articles, covering 3 f
 
 - [**The Bio AMR corpus**](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-release-bio-v3.0.txt)
 
-### Bio AMR Corpus   version 0.8 · 6,452 sentences
+#### Bio AMR Corpus   version 0.8 · 6,452 sentences
 
 - Bio AMR corpus 0.8: [dev (500 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-release-dev-bio.txt), [training (5,452 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-release-training-bio.txt), [test (500 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-release-test-bio.txt)
-- Aautomatically generated alignments for Bio AMR corpus 0.8: [dev (500 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/alignment-release-dev-bio.txt), [training (5,452 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/alignment-release-training-bio.txt), [test (500 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/alignment-release-test-bio.txt). 
+- Aautomatically generated alignments for Bio AMR corpus 0.8: [dev (500 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/alignment-release-dev-bio.txt), [training (5,452 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/alignment-release-training-bio.txt), [test (500 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/alignment-release-test-bio.txt).
+
+### Chinese AMR
+
+[Chinese AMR from Brandeis University](http://www.cs.brandeis.edu/~clp/camr/camr.html)
+
+
 
 ## Closed-source
 
 - [LDC general release AMR 3.0](https://catalog.ldc.upenn.edu/LDC2020T02) on January 15, 2020, with 59,255 sentences. Includes multi-sentence annotations for part of the AMR corpus.
 - [LDC general release AMR 2.0](https://catalog.ldc.upenn.edu/LDC2017T10) on June 15, 2017, with 39,260 sentences. 
 - [SemEval Task 9](http://alt.qcri.org/semeval2017/task9) is AMR parsing and generation. Organized by Jonathan May. 
-- [Chinese AMR from Brandeis University](http://www.cs.brandeis.edu/~clp/camr/camr.html)
 
 ## Data that is not available / doesn't seem to exist anymore:
 
