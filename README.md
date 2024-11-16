@@ -13,17 +13,17 @@ Elements in each categorty are sorted alphabetically.
 
 If not mentioned otherwise, tools are all in Python.
 
-### Annotation and Visualization
-
-(Usually) GUI-based tools for creating, saving, and showing AMRs
-
-- [metamorphosed](https://github.com/Orange-OpenSource/metamorphosed), [📜](https://aclanthology.org/2023.isa-1.4/): graphical editor to edit Abstract Meaning Representations graphs
-
 ### Parsing & generation
 
 These are tools for generating AMRs from text (parsing), or generating text from AMR (generation). 
 
 - [amrlib](https://github.com/bjascob/amrlib): Many pre-trained (English) models for parsing and generation.
+
+### Annotation and Visualization
+
+(Usually) GUI-based tools for creating, saving, and showing AMRs
+
+- [metamorphosed](https://github.com/Orange-OpenSource/metamorphosed), [📜](https://aclanthology.org/2023.isa-1.4/): graphical editor to edit Abstract Meaning Representations graphs
 
 ### Graph reading, writing
 
@@ -33,7 +33,7 @@ These are tools for reading, writing and handling AMR graphs.
 - [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): read, write, modify graphs
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): read, write, modify graphs
 
-### Graph processing/transformation
+### Graph transformation
 
 -  [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): extract subgraphs, standardize graphs
 
@@ -41,7 +41,7 @@ These are tools for reading, writing and handling AMR graphs.
 
 #### Structure matching 
 
-The following are graph metrics that compare meaning graphs structurally (i.e., they don't use embeddings etc.). 
+The following are graph metrics that compare graphs structurally (i.e., they don't use embeddings etc.). 
 
 - [Ancast](https://github.com/sxndqc/ancast), [📜](https://aclanthology.org/2024.lrec-main.94/): Approximates Smatch, more efficient than Smatch
 - [Sema](https://github.com/rafaelanchieta/sema), [📜](https://arxiv.org/abs/1905.12069): triple match heuristic, fast
@@ -51,7 +51,7 @@ The following are graph metrics that compare meaning graphs structurally (i.e., 
 
 #### Structure and content matching
 
-These are metrics that use embeddings or other features, for finer graph meaning similarity (e.g., structures like `kitten` vs. `cat` vs. possibly `cat :mod young`, etc.). 
+These are "advanced" metrics that use embeddings or other features, for finer graph meaning similarity (e.g., structures like `kitten` vs. `cat` vs. possibly `cat :mod young`, etc.). 
 
 - [AMRSim](https://github.com/zzshou/AMRSim), [📜](https://aclanthology.org/2023.acl-long.892/): Self supervised learning of graph matching witn neural network
 - [CALAMR](https://github.com/uic-nlp-lab/calamr), [📜](https://aclanthology.org/2024.lrec-main.236/): Flow-based alignment of graph components
@@ -78,27 +78,30 @@ These are methods for finding out which parts of two AMRs relate to which parts 
 
 ## AMR data and miscelanea
 
-### Original Sembanks (annotated human reference AMRs):
+### Main English Sembanks
 
 They  have their own section. The public datasets, like Little Prince, are hosted in this github, since the link to the main webpage is currently broken. 
 
-Please find the public annotations in [this directory](https://github.com/flipz357/AMR-World/tree/main/data/reference_amrs)
+Please find the major public manual AMR annotations in [this directory](https://github.com/flipz357/AMR-World/tree/main/data/reference_amrs).
 
-### Other Sembanks
+### Other English Sembanks
 
-- [MASSIVE AMR](https://github.com/amazon-science/MASSIVE-AMR), [📜](https://aclanthology.org/2024.starsem-1.1/): A dataset with more than 84,000 text-to-graph Abstract Meaning Representation (AMR) annotations for 1,685 information-seeking utterances mapped to 50+ typologically diverse languages.
+- [MASSIVE AMR](https://github.com/amazon-science/MASSIVE-AMR), [📜](https://aclanthology.org/2024.starsem-1.1/): A dataset with more than 84,000 text-to-graph Abstract Meaning Representation (AMR) annotations for 1,685 information-seeking utterances mapped to 50+ typologically diverse languages. Manually created.
 
-### Sembanks: Other languages
+### Sembanks in Other Languages
 
 Non-English Sembanks contain Non-English texts and their AMR graphs.
 
-- [Spanish AMR corpus](https://github.com/shirawein/Spanish-Abstract-Meaning-Representation),  [📜](https://nejlt.ep.liu.se/article/view/4462/3648): 486 gold AMRs (source sentences available through Linguistic Data Consortium)
+- [Brazilian AMR](https://github.com/rafaelanchieta/amr-br), [📜](https://aclanthology.org/L18-1157/): 1561 Brazilian AMRs for Little Prince. Manually created.
+- [German AMR](https://github.com/chriott/deamr), [📜](https://aclanthology.org/2024.lrec-main.26/): 400 German AMRs. Manually created.
+- [Spanish AMR](https://github.com/shirawein/Spanish-Abstract-Meaning-Representation),  [📜](https://nejlt.ep.liu.se/article/view/4462/3648): 486 AMRs (source sentences available through Linguistic Data Consortium). Manually created.
+
 
 ### Pair-wise annotations
 
 Pairs of AMRs with annotation, e.g., entailment, or similarity.
 
-- [BAMBOO benchmark](https://github.com/flipz357/bamboo-amr-benchmark), [📜](https://aclanthology.org/2021.tacl-1.85/): testing and evaluating AMR metrics
+- [BAMBOO benchmark](https://github.com/flipz357/bamboo-amr-benchmark), [📜](https://aclanthology.org/2021.tacl-1.85/): several thousand silver AMRs for testing and evaluating AMR metrics
 - [NLI AMR](https://github.com/flipz357/amr4nli), [📜](https://arxiv.org/abs/2306.00936): >1 mio Silver AMR pairs of five NLI data sets
 - [Spanish-English](https://github.com/shirawein/spanish-english-amr-corpus), [📜](https://aclanthology.org/2021.law-1.6/): 50 pairs of parallel AMRs with annotated divergence type
 - [ParsEval](https://github.com/Heidelberg-NLP/AMRParseEval), [📜](https://aclanthology.org/2022.eval4nlp-1.4/): 800 Parsed AMRs with human quality annoations (domain: little Prince, AMR3)
