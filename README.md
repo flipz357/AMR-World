@@ -3,7 +3,7 @@
 An overview of available tools and resources for AMR graphs. Requirements to be included are:
 
 - Publicly available (main requirement)
-- if it's a tool: easy to use (ideally)
+- If it's a tool: easy to use (ideally)
 
 Please file an issue or make a pull request if you want to make a suggestion for inclusion. There should be a link to a github-repository and (if available) a link to a related publication (📜). Note that work/papers on single parsers or generators should be listed separately, except if they are easy to use off-the-shelf.
 
