@@ -95,7 +95,8 @@ Non-English Sembanks contain Non-English texts and their AMR graphs.
 - [Brazilian AMR](https://github.com/rafaelanchieta/amr-br), [📜](https://aclanthology.org/L18-1157/): 1561 Brazilian AMRs for Little Prince. Manually created.
 - [German AMR](https://github.com/chriott/deamr), [📜](https://aclanthology.org/2024.lrec-main.26/): 400 German AMRs. Manually created.
 - [Spanish AMR](https://github.com/shirawein/Spanish-Abstract-Meaning-Representation),  [📜](https://nejlt.ep.liu.se/article/view/4462/3648): 486 AMRs (source sentences available through Linguistic Data Consortium). Manually created.
-
+- [Korean AMR](https://github.com/choe-hyonsu-gabrielle/korean-amr-corpus), [📜](https://www.aclweb.org/anthology/2020.dmr-1.3/): 1,253 sentences. Manually created.
+- [Turkish AMR](https://github.com/amr-turkish/turkish-amr-corpus), [📜](https://aclanthology.org/P19-2006/): 700 gold sentences.
 
 ### Pair-wise annotations
 
