@@ -91,6 +91,7 @@ Please find information about the major English public manual AMR annotations in
 Non-English Sembanks contain Non-English texts and their AMR graphs.
 
 - [Brazilian AMR](https://github.com/rafaelanchieta/amr-br), [📜](https://aclanthology.org/L18-1157/): 1561 Brazilian AMRs for Little Prince. Manually created.
+- [Chinese AMR](http://www.cs.brandeis.edu/~clp/camr/camr.html) [📜](https://aclanthology.org/W16-1702/): 1562 Chinese AMRs for Little Prince. Manually crafted. Double annotated.
 - [German AMR](https://github.com/chriott/deamr), [📜](https://aclanthology.org/2024.lrec-main.26/): 400 German AMRs. Manually created.
 - [Spanish AMR](https://github.com/shirawein/Spanish-Abstract-Meaning-Representation),  [📜](https://nejlt.ep.liu.se/article/view/4462/3648): 486 AMRs (source sentences available through Linguistic Data Consortium). Manually created.
 - [Korean AMR](https://github.com/choe-hyonsu-gabrielle/korean-amr-corpus), [📜](https://www.aclweb.org/anthology/2020.dmr-1.3/): 1,253 sentences. Manually created.
@@ -101,6 +102,7 @@ Non-English Sembanks contain Non-English texts and their AMR graphs.
 Pairs of AMRs with annotation, e.g., entailment, or similarity.
 
 - [BAMBOO benchmark](https://github.com/flipz357/bamboo-amr-benchmark), [📜](https://aclanthology.org/2021.tacl-1.85/): several thousand silver AMRs for testing and evaluating AMR metrics.
+- [Chinese AMR Double Annotation](http://www.cs.brandeis.edu/~clp/camr/camr.html) [📜](https://aclanthology.org/W16-1702/): 1562 Chinese AMRs for Little Prince. Manually crafted. Double annotated.
 - [NLI AMR](https://github.com/flipz357/amr4nli), [📜](https://arxiv.org/abs/2306.00936): >1 mio Silver AMR pairs of five NLI data sets.
 - [Spanish-English](https://github.com/shirawein/spanish-english-amr-corpus), [📜](https://aclanthology.org/2021.law-1.6/): 50 pairs of parallel AMRs with annotated divergence type.
 - [ParsEval](https://github.com/Heidelberg-NLP/AMRParseEval), [📜](https://aclanthology.org/2022.eval4nlp-1.4/): 800 Parsed AMRs with human quality annoations (domain: little Prince, AMR3).
