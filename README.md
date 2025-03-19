@@ -15,10 +15,10 @@ Please file an issue or make a pull request if you want to make a suggestion for
   - [Pair-wise annotations](#Pair-wise-annotations)
   - [Miscelanea](#Miscelanea)
 - [AMR Tools](#amr-tools)
-  - [Parsing & Generation](Parsing-&-Generation)
-  - [Annotation & Visualization](Annotation-&-Visualization)
+  - [Parsing and Generation](Parsing-and-Generation)
+  - [Annotation and Visualization](Annotation-&-Visualization)
   - [Graph reading, writing, standardization](Graph-reading,-writing,-standardization)
-  - [Metrics / Evaluation](Metrics-/-Evaluation)
+  - [Metrics and Evaluation](Metrics-and-Evaluation)
   - [Graph-to-text alignment](Graph-to-text-alignment)
 
 Elements in each categorty are sorted alphabetically. 
@@ -67,7 +67,7 @@ Pairs of AMRs with annotation, e.g., entailment, or similarity.
 
 If not mentioned otherwise, tools are all in Python.
 
-### Parsing & Generation
+### Parsing and Generation
 
 These are tools for generating AMRs from text (parsing), or generating text from AMR (generation). 
 
@@ -87,7 +87,7 @@ These are tools for reading, writing and handling AMR graphs.
 - [penman](https://github.com/goodmami/penman),  [📜](https://www.aclweb.org/anthology/2020.acl-demos.35/): read, write, modify graphs
 - [Smatch++](https://github.com/flipz357/smatchpp), [📜](https://aclanthology.org/2023.findings-eacl.118/): read, write, modify graphs, standardize graphs
 
-### Metrics / Evaluation
+### Metrics and Evaluation
 
 #### Structure matching 
 
