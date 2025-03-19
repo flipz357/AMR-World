@@ -25,11 +25,6 @@ This corpus includes annotations of cancer-related PubMed articles, covering 3 f
 - Bio AMR corpus 0.8: [dev (500 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-release-dev-bio.txt), [training (5,452 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-release-training-bio.txt), [test (500 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/amr-release-test-bio.txt)
 - Aautomatically generated alignments for Bio AMR corpus 0.8: [dev (500 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/alignment-release-dev-bio.txt), [training (5,452 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/alignment-release-training-bio.txt), [test (500 snt.)](https://github.com/flipz357/AMR-World/blob/main/data/reference_amrs/alignment-release-test-bio.txt).
 
-### Chinese AMR
-
-[Chinese AMR from Brandeis University](http://www.cs.brandeis.edu/~clp/camr/camr.html)
-
-
 
 ## Closed-source
 
