@@ -80,7 +80,7 @@ These are methods for finding out which parts of two AMRs relate to which parts 
 
 ### Main English Sembanks
 
-Please find information about the major English public manual AMR annotations in [this sub-directory](https://github.com/flipz357/AMR-World/tree/main/data/reference_amrs). Public datasets, like Little Prince, are hosted in this github, since the link to the original webpage is broken. 
+Please find information about the "traditional/long-standing" English public manual AMR annotations in [this sub-directory](https://github.com/flipz357/AMR-World/tree/main/data/reference_amrs). 
 
 ### Other English Sembanks
 
