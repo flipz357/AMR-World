@@ -15,11 +15,11 @@ Please file an issue or make a pull request if you want to make a suggestion for
   - [Pair-wise annotations](#Pair-wise-annotations)
   - [Miscelanea](#Miscelanea)
 - [AMR Tools](#amr-tools)
-  - [Parsing and Generation](Parsing-and-Generation)
-  - [Annotation and Visualization](Annotation-and-Visualization)
-  - [Graph reading, writing, standardization](Graph-reading,-writing,-standardization)
-  - [Metrics and Evaluation](Metrics-and-Evaluation)
-  - [Graph-to-text alignment](Graph-to-text-alignment)
+  - [Parsing and Generation](#Parsing-and-Generation)
+  - [Annotation and Visualization](#Annotation-and-Visualization)
+  - [Graph reading, writing, standardization](#Graph-reading,-writing,-standardization)
+  - [Metrics and Evaluation](#Metrics-and-Evaluation)
+  - [Graph-to-text alignment](#Graph-to-text-alignment)
 
 Elements in each categorty are sorted alphabetically. 
 
