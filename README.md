@@ -31,7 +31,7 @@ Please find information about the "traditional/long-standing" English public man
 
 ### Other Languages
 
-#### Non-English Sembanks contain Non-English texts and their AMR graphs.
+Non-English Sembanks contain Non-English texts and their AMR graphs.
 
 - [Brazilian AMR](https://github.com/rafaelanchieta/amr-br), [📜](https://aclanthology.org/L18-1157/): 1561 Brazilian AMRs for Little Prince. Manually created.
 - [Chinese AMR](http://www.cs.brandeis.edu/~clp/camr/camr.html) [📜](https://aclanthology.org/W16-1702/): 1562 Chinese AMRs for Little Prince. Manually crafted. Double annotated.
@@ -40,7 +40,7 @@ Please find information about the "traditional/long-standing" English public man
 - [Korean AMR](https://github.com/choe-hyonsu-gabrielle/korean-amr-corpus), [📜](https://www.aclweb.org/anthology/2020.dmr-1.3/): 1,253 sentences. Manually created.
 - [Turkish AMR](https://github.com/amr-turkish/turkish-amr-corpus), [📜](https://aclanthology.org/P19-2006/): 700 gold sentences.
 
-#### English Sembanks that relate to other languages.
+English Sembanks that relate to other languages.
 
 - [MASSIVE AMR](https://github.com/amazon-science/MASSIVE-AMR), [📜](https://aclanthology.org/2024.starsem-1.1/): A dataset with more than 84,000 text-to-graph Abstract Meaning Representation (AMR) annotations for 1,685 information-seeking utterances mapped to 50+ typologically diverse languages. Manually created.
 
