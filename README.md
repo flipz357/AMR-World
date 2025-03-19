@@ -16,7 +16,7 @@ Please file an issue or make a pull request if you want to make a suggestion for
   - [Miscelanea](#Miscelanea)
 - [AMR Tools](#amr-tools)
   - [Parsing and Generation](Parsing-and-Generation)
-  - [Annotation and Visualization](Annotation-&-Visualization)
+  - [Annotation and Visualization](Annotation-and-Visualization)
   - [Graph reading, writing, standardization](Graph-reading,-writing,-standardization)
   - [Metrics and Evaluation](Metrics-and-Evaluation)
   - [Graph-to-text alignment](Graph-to-text-alignment)
