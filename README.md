@@ -76,13 +76,11 @@ These are methods for finding out which parts of two AMRs relate to which parts 
 - [Leamr](https://github.com/ablodge/leamr), [📜](https://aclanthology.org/2021.acl-long.257/):  Learned statistical amr-text aligmemnt
 - [WWLK-aligner](https://github.com/flipz357/Simple-AMR-Aligner), [📜](https://aclanthology.org/2021.tacl-1.85/): Wasserstein amr-text alignment 
 
-## AMR data and miscelanea
+## AMR data
 
 ### Main English Sembanks
 
-They  have their own section. The public datasets, like Little Prince, are hosted in this github, since the link to the main webpage is currently broken. 
-
-Please find the major public manual AMR annotations in [this directory](https://github.com/flipz357/AMR-World/tree/main/data/reference_amrs).
+Please find information about the major English public manual AMR annotations in [this sub-directory](https://github.com/flipz357/AMR-World/tree/main/data/reference_amrs). Public datasets, like Little Prince, are hosted in this github, since the link to the original webpage is broken. 
 
 ### Other English Sembanks
 
@@ -102,16 +100,19 @@ Non-English Sembanks contain Non-English texts and their AMR graphs.
 
 Pairs of AMRs with annotation, e.g., entailment, or similarity.
 
-- [BAMBOO benchmark](https://github.com/flipz357/bamboo-amr-benchmark), [📜](https://aclanthology.org/2021.tacl-1.85/): several thousand silver AMRs for testing and evaluating AMR metrics
-- [NLI AMR](https://github.com/flipz357/amr4nli), [📜](https://arxiv.org/abs/2306.00936): >1 mio Silver AMR pairs of five NLI data sets
-- [Spanish-English](https://github.com/shirawein/spanish-english-amr-corpus), [📜](https://aclanthology.org/2021.law-1.6/): 50 pairs of parallel AMRs with annotated divergence type
-- [ParsEval](https://github.com/Heidelberg-NLP/AMRParseEval), [📜](https://aclanthology.org/2022.eval4nlp-1.4/): 800 Parsed AMRs with human quality annoations (domain: little Prince, AMR3)
-- [Textual Similarity](https://github.com/flipz357/bamboo-amr-benchmark), [📜](https://aclanthology.org/2021.tacl-1.85/): Silver AMRs of text similarity benchmarks (e.g., STS) that are annoated with human textual similarity ratings
+- [BAMBOO benchmark](https://github.com/flipz357/bamboo-amr-benchmark), [📜](https://aclanthology.org/2021.tacl-1.85/): several thousand silver AMRs for testing and evaluating AMR metrics.
+- [NLI AMR](https://github.com/flipz357/amr4nli), [📜](https://arxiv.org/abs/2306.00936): >1 mio Silver AMR pairs of five NLI data sets.
+- [Spanish-English](https://github.com/shirawein/spanish-english-amr-corpus), [📜](https://aclanthology.org/2021.law-1.6/): 50 pairs of parallel AMRs with annotated divergence type.
+- [ParsEval](https://github.com/Heidelberg-NLP/AMRParseEval), [📜](https://aclanthology.org/2022.eval4nlp-1.4/): 800 Parsed AMRs with human quality annoations (domain: little Prince, AMR3).
+- [Textual Similarity](https://github.com/flipz357/bamboo-amr-benchmark), [📜](https://aclanthology.org/2021.tacl-1.85/): Silver AMRs of text similarity benchmarks (e.g., STS) that are annoated with human textual similarity ratings.
 
 ### Other resources
+
+- [GrAPES](https://github.com/jgroschwitz/GrAPES), [📜](https://arxiv.org/abs/2312.03480): AMR parser challenge.
+
+## Miscelanea
 
 - [AMR Bibliography](https://github.com/nert-nlp/AMR-Bibliography), [📜](https://nert-nlp.github.io/AMR-Bibliography/): Up-to-date and very large collection of publications on AMR.
 - [AMR dictionaries and lexica](https://github.com/flipz357/AMR-World/tree/main/data/dictionaries)
 - [AMR Guidelines](https://github.com/amrisi/amr-guidelines/blob/master/amr.md), [📜](https://aclanthology.org/W13-2322/): The backbone of everything. AMR examples, and how to create AMRs.
-- [GrAPES](https://github.com/jgroschwitz/GrAPES), [📜](https://arxiv.org/abs/2312.03480): AMR parser challenge
 - [UMR](https://umr4nlp.github.io/web/): Uniform Meaning Representation is a successor to AMR that aims to be more flexible across languages and to cover more semantic phenomena.
