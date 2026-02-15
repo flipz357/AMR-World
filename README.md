@@ -1,4 +1,4 @@
-# AMR World 🌎: *Public* AMR tools and resources 🎊
+# AMR World 🌎: *Open* AMR tools and resources 
 
 An overview of available tools and resources for AMR graphs. Requirements to be included are:
 
